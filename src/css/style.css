@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    width: 100%;
+    min-width: 320px;
+}
+
+main .content {
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+header .logo {
+    width: 40px;
+}
+
+.main_title {
+    margin: 40px 0;
+    min-width: 100%;
+    font-size: 5rem;
+}
+
+.signUp_title {
+    font-size: 3rem;
+}
+
+.btns_content button {
+    display: flex;
+    place-content: center;
+    width: 100%;
+    margin: 15px 0;
+    padding: 8px 0;
+    background: none;
+    border: 1px solid #dfe5e8;
+    border-radius: 100px;
+}
+
+.btns_content button img {
+    height: 16px;
+    margin-right: 10px;
+}
+
+.btns_content hr {
+    border: 0.5px solid #f8f9fa;
+}
+
+.btns_content .signUp_phone {
+    font-weight: 600;
+    background-color: #1c9bef;
+    border-color: #1c9bef;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btns_content .permissions {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.btns_content .permissions span {
+    color: #1c9bef;
+}
+
+.signIn_title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.signIn_btn {
+    width: 100%;
+    padding: 8px;
+    color: #1c9bef;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid #cfd9dd;
+}
+
+/* Banner */
+.twitter_banner {
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_850x623.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.twitter_banner img {
+    width: 100px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer_nav a {
+    width: max-content;
+    color: #5d6c79;
+    font-size: 1.2rem;
+    font-weight: 300;
+}

@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main .content {
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+/* Banner */
+.twitter_banner {
+    background-size: cover;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 500px);
+    height: 100vh;
+}
+
+.twitter_banner img {
+    width: 50%;
+    max-width: 300px;
+    place-self: center;
+}
